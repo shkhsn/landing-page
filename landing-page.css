@@ -61,8 +61,9 @@ a {
 
 .hero-section button {
   color: #fff;
+  font-size: 18px;
   background-color: #3882f6;
-  border-color: #3882f6;
+  border: 2px solid #3882f6;
   padding: 7px 30px;
   border-radius: 10px;
 }
@@ -144,4 +145,33 @@ button {
 
 .sign-up-section {
   background-color: #3882f6;
+  margin: 120px 250px;
+  padding: 55px 150px;
+  border-radius: 10px;
+}
+
+.sign-up-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.sign-up-section .container div p:nth-of-type(1) {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.sign-up-section .container div :nth-child(2) {
+  font-size: 20px;
+  color: #e5e7eb;
+}
+
+.sign-up-section .container button {
+  color: #fff;
+  font-size: 20px;
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  padding: 7px 32px;
+  border-radius: 10px;
 }
