@@ -61,8 +61,8 @@ a {
 
 .hero-section button {
   color: #fff;
-  background-color: rgb(78, 138, 238);
-  border-color: rgb(78, 138, 238);
+  background-color: #3882f6;
+  border-color: #3882f6;
   padding: 7px 30px;
   border-radius: 10px;
 }
@@ -73,14 +73,52 @@ a {
 
 .hero-section .container div {
   align-self: center;
-  /* display: flex;
-  flex-direction: column;
-  /* justify-content: space-around; */
-  /* margin-bottom: 50px; */
 }
 
 .hero-section .container div h1,
 p,
 button {
   margin-bottom: 7px;
+}
+
+.box-section {
+  margin: 30px 0 60px 0;
+}
+
+.box-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-section h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+.box-section .box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.box-section .container .item-boxes {
+  display: flex;
+  text-align: center;
+}
+
+.box-section p {
+  width: 155px;
+}
+
+.box-section .container .item-boxes .item {
+  padding: 0 40px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
 }
